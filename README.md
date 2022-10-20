@@ -1,3 +1,3 @@
 # learn-tofly
 
-O arquivo Questoes têm as respostas do desafio
+O arquivo Questoes tem as respostas do desafio
