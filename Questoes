@@ -1,0 +1,63 @@
+Questão 1
+- Em primeiro lugar iria verificar se a UI está de acordo com os padrões de usabilidade. Criaria os casos de testes para a funcionalidade e realizaria a automação. 
+Solicitaria uma massa de testes para os testes automatizados e realizaria testes de segurança para verificar se os dados do formulário não estão sensíveis na requisição.
+
+Questão 2
+- Na planning o QA deve auxiliar o time a mensurar a complexidade das tarefas e pontos para a sprint levando em conta o esforço de teste e capacidade do time de qualidade, ajudando a
+definir as entregas viáveis da sprint. Também deve reforçar os pontos que necessitam de mais atenção para as tarefas, eventuais "gargalos" e ressaltar os acertos e falhas recorrentes
+que podem vir a atrasar o desenvolvimento. 
+
+Questão 3
+- O QA deve começar a criar os casos de testes e automações que achar pertinente as tarefas da sprint, acompanhar as entregas dos desenvolvedores verificando se estão de acordo 
+com a regra do negócio e buscando agilidade no report de bugs ao desenvolvedor e nos cards das tarefas. Também pode começar a executar testes exploratórios e de regressão, reportando
+novos bugs e sugerindo melhorias de usabilidade e interface, com a avaliação de criticidade junto ao PO avaliar se serão tratadas nessa sprint ou se em outro momento (backlog).
+
+Questão 4
+- Caso de teste 1 - Validação do Login com credenciais corretas 
+  Resultado esperado:  Deve permitir logar na plataforma
+
+  Caso de teste 2 - Validação do Login com credenciais incorretas 
+  Resultado esperado:  Não deve permitir logar na plataforma
+
+  Caso de teste 3 - Validação do Login com credencias em maisculo (login) 
+  Resultado esperado:  Deve permitir logar na plataforma
+
+  Caso de teste 4 - Validação do Login com credencias em maisculo (senha) 
+  Resultado esperado:  Não Deve permitir logar na plataforma
+
+  Caso de teste 5 - Redefir a senha com e-mail cadastrado
+  Resultado esperado: Deve enviar o e-mail e permitir alterar a senha e logar na plataforma apenas com a senha nova.
+
+  Caso de teste 6 - Redefir a senha com e-mail não cadastrado
+  Resultado esperado: Não deve enviar o e-mail de redefinição de senha
+
+  Caso de teste 7 - Validar o login por SSO com credenciais corretas (cadastrada)
+  Resultado esperado: Deve logar na plataforma do terceiro e permitir logar na própria plataforma
+
+  Caso de teste 8 - Validar o login por SSO com credenciais corretas (não cadastrada)
+  Resultado esperado: Deve logar na plataforma do terceiro mas não permitir logar na própria plataforma
+
+  Caso de teste 9 - Validar o login por SSO com credenciais incorretas
+  Resultado esperado: Não deve logar na plataforma do terceiro e não deve permitir logar na própria plataforma
+
+  Caso de teste 10 - Validação de segurança da requisição
+  Resultado esperado: Os dados de formulário devem estar criptografados na requisição para o back-end, não visíveis.
+
+  Caso de teste 11 - Validação de segurança dos inputs
+  Resultado esperado: Os inputs devem estar limitados e validando tamanho e formato de e-mail para evitar entradas maliciosas.
+
+  Caso de teste 12 - Validação do visualizador de senha 
+  Resultado esperado: O botão que permite visualizar e ocultar a senha deve estar funcional.
+
+
+
+
+
+  
+
+
+
+
+
+
+
