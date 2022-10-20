@@ -30,3 +30,4 @@ describe('Teste Login Normal', () => {
     cy.get('body > app-root > app-pages > mat-sidenav-container > mat-sidenav-content > mat-toolbar > mat-toolbar-row > span.wellcome-name').should('have.class', 'wellcome-name');
   });
 });
+
